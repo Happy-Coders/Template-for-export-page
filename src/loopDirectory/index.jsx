@@ -8,16 +8,23 @@ import Tag from '../widgets/Tag'
 import Timeline from '../widgets/Timeline'
 import Carousel from '../widgets/Carousel'
 import Navbar from '../widgets/Navbar'
+import FacebookFrame from '../widgets/Facebook'
+import LinkedInFrame from '../widgets/Linkedin'
+import YoutubeFrame from '../widgets/YouTubeFrame'
+import Footer from '../widgets/Footer'
+import TwitterFrame from '../widgets/Twitter'
+import GoogleFrame from '../widgets/Map'
 class MainFile extends Component {
 
     render() {
         var JsonData = [
-            { id: 1573377634745, top: 0, left: 0, type: "Navbar" },
-            { id: 1573383465481, top: 327, left: 30, type: "Card" },
-            { id: 1573383468174, top: 328, left: 322, type: "Card" },
-            { id: 1573383470534, top: 328, left: 633, type: "Card" },
-            { id: 1573383475776, top: 329, left: 937, type: "Card" },
-            { id: 1573383475785, top: 800, left: 600, type: "Bargraph" }
+            {id: 1573551233636, top: 0, left: 0, type: "Navbar"},
+            {id: 1573551241882, top: 150, left: -475, type: "Piechart"},
+            {id: 1573551245343, top: 123, left: 792, type: "Card"},
+            {id: 1573551248120, top: 122, left: 1179, type: "Card"},
+            {id: 1573551258573, top: 543, left: -16, type: "Areagraph"},
+            {id: 1573551264280, top: 991, left: -86, type: "Timeline"},
+            {id: 1573551274865, top: 1345, left: 407, type: "FacebookFrame"}
         ]
 
         const allComponent = JsonData.map((compo) => {
