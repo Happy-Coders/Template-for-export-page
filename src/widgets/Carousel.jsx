@@ -7,11 +7,11 @@ class Slideshow extends Component {
   render() {
     var style = {
       width: "100%",
-      height: "100%"
+      height: "35vh"
     }
     return (
       // <div style={{height:"100%", width:"100%"}}>
-      <Carousel style={{ height: "30vw", width: "80vw" }} autoplay>
+      <Carousel style={{ height: "auto", width: "80vw" }} autoplay>
         <div>
           <img style={style} src="https://i.dell.com/sites/csimages/Banner_Imagery/en/in-dhs-pc-exch-965x220.jpg" />
         </div>

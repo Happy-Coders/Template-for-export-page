@@ -8,7 +8,7 @@ class App extends Component
 {
   render(){
   return (
-    <div >
+    <div style={{position:"absolute", left:"10%", width:"80%"}}>
       <Body></Body>
     </div>
   );
