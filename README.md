@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Template For Exported Page
 
-## Available Scripts
+The idea is to export all the changes made in "DragToMake" will be exported in a JSON Format and a JSON file will be given to the user which user will have to paste in a perticular folder so that the react app gives the same view as made in "DragToMake".
 
-In the project directory, you can run:
+Currently this repository is not functional (WIP).
 
-### `yarn start`
+## Installation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+npm start
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Plans
 
-### `yarn test`
+The project was started on 5th November 2019 with a large plan. Although we haven't covered much yet but if we separate the project into different phases we will get to know that 3/8 phases are completed.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - [x] Create a UI that allows widget to move around the playground.
 
-### `yarn build`
+ - [x] Create a UI that allows widget to get resized (Still some issues left).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - [x] Recommendation chat bot
+ 
+ - [ ] Create export file and template for the user (WIP).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ - [ ] Write test case for the website as it will be made open source
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ - [ ] Create a dynamic UI that allows user to change the content inside the widget
 
-### `yarn eject`
+ - [ ] Allow user to add Widget of their own
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ - [ ] Make the export language independent. Example- The page can be exported in different language like Angular React Vuejs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Try to solve 2 beginner issues before starting with any major issues.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
